@@ -1,4 +1,4 @@
-## SnowFlake 算法实现
+## 分布式ID生成 SnowFlake 算法实现
 
 snowflake 是 twitter 开源的分布式ID生成算法。<br />
 其核心思想为，一个long型的ID：<br />
