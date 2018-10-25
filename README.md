@@ -1,3 +1,5 @@
+## snowflake 算法实现
+
 snowflake 是 twitter 开源的分布式ID生成算法，其核心思想为，一个long型的ID：
 
 41 bit 作为毫秒数 - 41位的长度可以使用69年
