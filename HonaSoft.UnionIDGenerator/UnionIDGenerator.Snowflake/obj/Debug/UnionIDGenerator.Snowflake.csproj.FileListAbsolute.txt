@@ -1,0 +1,6 @@
+F:\mywork\HonaSoft.UnionIDGenerator\UnionIDGenerator.Snowflake\bin\Debug\UnionIDGenerator.Snowflake.dll
+F:\mywork\HonaSoft.UnionIDGenerator\UnionIDGenerator.Snowflake\bin\Debug\UnionIDGenerator.Snowflake.pdb
+F:\mywork\HonaSoft.UnionIDGenerator\UnionIDGenerator.Snowflake\obj\Debug\UnionIDGenerator.Snowflake.csprojAssemblyReference.cache
+F:\mywork\HonaSoft.UnionIDGenerator\UnionIDGenerator.Snowflake\obj\Debug\UnionIDGenerator.Snowflake.csproj.CoreCompileInputs.cache
+F:\mywork\HonaSoft.UnionIDGenerator\UnionIDGenerator.Snowflake\obj\Debug\UnionIDGenerator.Snowflake.dll
+F:\mywork\HonaSoft.UnionIDGenerator\UnionIDGenerator.Snowflake\obj\Debug\UnionIDGenerator.Snowflake.pdb

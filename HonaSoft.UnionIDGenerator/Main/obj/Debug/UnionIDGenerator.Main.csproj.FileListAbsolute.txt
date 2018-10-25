@@ -1,0 +1,10 @@
+F:\mywork\HonaSoft.UnionIDGenerator\Main\bin\Debug\Main.exe.config
+F:\mywork\HonaSoft.UnionIDGenerator\Main\bin\Debug\Main.exe
+F:\mywork\HonaSoft.UnionIDGenerator\Main\bin\Debug\Main.pdb
+F:\mywork\HonaSoft.UnionIDGenerator\Main\bin\Debug\UnionIDGenerator.Snowflake.dll
+F:\mywork\HonaSoft.UnionIDGenerator\Main\bin\Debug\UnionIDGenerator.Snowflake.pdb
+F:\mywork\HonaSoft.UnionIDGenerator\Main\obj\Debug\UnionIDGenerator.Main.csprojAssemblyReference.cache
+F:\mywork\HonaSoft.UnionIDGenerator\Main\obj\Debug\UnionIDGenerator.Main.csproj.CoreCompileInputs.cache
+F:\mywork\HonaSoft.UnionIDGenerator\Main\obj\Debug\UnionIDGenerator.Main.csproj.CopyComplete
+F:\mywork\HonaSoft.UnionIDGenerator\Main\obj\Debug\Main.exe
+F:\mywork\HonaSoft.UnionIDGenerator\Main\obj\Debug\Main.pdb

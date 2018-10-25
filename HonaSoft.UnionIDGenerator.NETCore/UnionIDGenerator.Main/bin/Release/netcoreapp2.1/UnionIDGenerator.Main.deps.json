@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "UnionIDGenerator.Main/1.0.0": {
+        "dependencies": {
+          "UnionIDGenerator.Snowflake": "1.0.0"
+        },
+        "runtime": {
+          "UnionIDGenerator.Main.dll": {}
+        }
+      },
+      "UnionIDGenerator.Snowflake/1.0.0": {
+        "runtime": {
+          "UnionIDGenerator.Snowflake.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnionIDGenerator.Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnionIDGenerator.Snowflake/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

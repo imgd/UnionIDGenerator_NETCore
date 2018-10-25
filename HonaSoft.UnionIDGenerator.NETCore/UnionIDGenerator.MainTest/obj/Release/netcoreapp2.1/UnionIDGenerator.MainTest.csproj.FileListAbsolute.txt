@@ -1,0 +1,16 @@
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.MainTest.deps.json
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.MainTest.runtimeconfig.json
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.MainTest.runtimeconfig.dev.json
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.MainTest.dll
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.MainTest.pdb
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.Snowflake.dll
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.Test.dll
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.Snowflake.pdb
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\UnionIDGenerator.Test.pdb
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\obj\Release\netcoreapp2.1\UnionIDGenerator.MainTest.csprojAssemblyReference.cache
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\obj\Release\netcoreapp2.1\UnionIDGenerator.MainTest.csproj.CoreCompileInputs.cache
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\obj\Release\netcoreapp2.1\UnionIDGenerator.MainTest.AssemblyInfoInputs.cache
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\obj\Release\netcoreapp2.1\UnionIDGenerator.MainTest.AssemblyInfo.cs
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\obj\Release\netcoreapp2.1\UnionIDGenerator.MainTest.csproj.CopyComplete
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\obj\Release\netcoreapp2.1\UnionIDGenerator.MainTest.dll
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\obj\Release\netcoreapp2.1\UnionIDGenerator.MainTest.pdb

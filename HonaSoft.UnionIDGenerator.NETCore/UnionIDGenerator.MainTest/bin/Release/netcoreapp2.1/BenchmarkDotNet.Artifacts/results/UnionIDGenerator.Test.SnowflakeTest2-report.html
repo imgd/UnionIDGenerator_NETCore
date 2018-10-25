@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>UnionIDGenerator.Test.SnowflakeTest2</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.11.1, OS=Windows 10.0.17134.345 (1803/April2018Update/Redstone4)
+Intel Core i5-8400 CPU 2.80GHz (Max: 2.81GHz) (Coffee Lake), 1 CPU, 6 logical and 6 physical cores
+.NET Core SDK=2.1.400
+  [Host] : .NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT
+  Clr    : .NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0
+  Core   : .NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>   Method</th><th>Job</th><th>Runtime</th><th> Mean</th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>CreateID10000</td><td>Clr</td><td>Clr</td><td>19.51 ms</td><td>0.0088 ms</td><td>0.0078 ms</td>
+</tr><tr><td>CreateID100000</td><td>Clr</td><td>Clr</td><td>195.01 ms</td><td>0.1684 ms</td><td>0.1575 ms</td>
+</tr><tr><td>CreateID1000000</td><td>Clr</td><td>Clr</td><td>1,952.64 ms</td><td>0.3207 ms</td><td>0.2843 ms</td>
+</tr><tr><td>CreateID10000</td><td>Core</td><td>Core</td><td>19.51 ms</td><td>0.0108 ms</td><td>0.0101 ms</td>
+</tr><tr><td>CreateID100000</td><td>Core</td><td>Core</td><td>195.04 ms</td><td>0.1535 ms</td><td>0.1436 ms</td>
+</tr><tr><td>CreateID1000000</td><td>Core</td><td>Core</td><td>1,952.72 ms</td><td>0.3094 ms</td><td>0.2895 ms</td>
+</tr></tbody></table>
+</body>
+</html>

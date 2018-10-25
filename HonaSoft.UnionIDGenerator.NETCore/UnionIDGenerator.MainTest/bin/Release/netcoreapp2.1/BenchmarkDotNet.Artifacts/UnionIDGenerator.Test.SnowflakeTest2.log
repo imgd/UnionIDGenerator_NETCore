@@ -1,0 +1,542 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Building 2 exe(s) in Parallel: Start   *****
+// ***** Done, took 00:00:04 (4.96 sec)   *****
+// Found benchmarks:
+//   SnowflakeTest2.CreateID10000: Clr(Runtime=Clr)
+//   SnowflakeTest2.CreateID100000: Clr(Runtime=Clr)
+//   SnowflakeTest2.CreateID1000000: Clr(Runtime=Clr)
+//   SnowflakeTest2.CreateID10000: Core(Runtime=Core)
+//   SnowflakeTest2.CreateID100000: Core(Runtime=Core)
+//   SnowflakeTest2.CreateID1000000: Core(Runtime=Core)
+
+// **************************
+// Benchmark: SnowflakeTest2.CreateID10000: Clr(Runtime=Clr)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\b787c0fc-7ace-4c3e-b003-49ed70ae0f2a\bin\Release\net472\b787c0fc-7ace-4c3e-b003-49ed70ae0f2a.exe -benchmarkId 0
+// BeforeAnythingElse
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0
+// GC=Concurrent Workstation
+// Job: Clr(Runtime=Clr)
+OverheadJitting  1: 1 op, 383800.00 ns, 383.8000 us/op
+WorkloadJitting  1: 1 op, 19727000.00 ns, 19.7270 ms/op
+OverheadJitting  2: 16 op, 751500.00 ns, 46.9688 us/op
+WorkloadJitting  2: 16 op, 312263300.00 ns, 19.5165 ms/op
+WorkloadPilot    1: 16 op, 311606200.00 ns, 19.4754 ms/op
+WorkloadPilot    2: 32 op, 624209500.00 ns, 19.5065 ms/op
+OverheadWarmup   1: 32 op, 2100.00 ns, 65.6250 ns/op
+OverheadWarmup   2: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadWarmup   3: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadWarmup   4: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadWarmup   5: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadWarmup   6: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   1: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   2: 32 op, 600.00 ns, 18.7500 ns/op
+OverheadActual   3: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   4: 32 op, 700.00 ns, 21.8750 ns/op
+OverheadActual   5: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   6: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   7: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   8: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual   9: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  10: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  11: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  12: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual  13: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  14: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual  15: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual  16: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual  17: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual  18: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual  19: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  20: 32 op, 500.00 ns, 15.6250 ns/op
+WorkloadWarmup   1: 32 op, 624067200.00 ns, 19.5021 ms/op
+WorkloadWarmup   2: 32 op, 624277000.00 ns, 19.5087 ms/op
+WorkloadWarmup   3: 32 op, 624320700.00 ns, 19.5100 ms/op
+WorkloadWarmup   4: 32 op, 624325000.00 ns, 19.5102 ms/op
+WorkloadWarmup   5: 32 op, 624234400.00 ns, 19.5073 ms/op
+WorkloadWarmup   6: 32 op, 624199700.00 ns, 19.5062 ms/op
+WorkloadWarmup   7: 32 op, 624306700.00 ns, 19.5096 ms/op
+WorkloadWarmup   8: 32 op, 624320300.00 ns, 19.5100 ms/op
+WorkloadWarmup   9: 32 op, 624311000.00 ns, 19.5097 ms/op
+// BeforeActualRun
+WorkloadActual   1: 32 op, 623362700.00 ns, 19.4801 ms/op
+WorkloadActual   2: 32 op, 624190000.00 ns, 19.5059 ms/op
+WorkloadActual   3: 32 op, 624198900.00 ns, 19.5062 ms/op
+WorkloadActual   4: 32 op, 625858700.00 ns, 19.5581 ms/op
+WorkloadActual   5: 32 op, 624342600.00 ns, 19.5107 ms/op
+WorkloadActual   6: 32 op, 624292300.00 ns, 19.5091 ms/op
+WorkloadActual   7: 32 op, 624307500.00 ns, 19.5096 ms/op
+WorkloadActual   8: 32 op, 624308600.00 ns, 19.5096 ms/op
+WorkloadActual   9: 32 op, 624166200.00 ns, 19.5052 ms/op
+WorkloadActual  10: 32 op, 624349200.00 ns, 19.5109 ms/op
+WorkloadActual  11: 32 op, 624308800.00 ns, 19.5097 ms/op
+WorkloadActual  12: 32 op, 624267000.00 ns, 19.5083 ms/op
+WorkloadActual  13: 32 op, 624322000.00 ns, 19.5101 ms/op
+WorkloadActual  14: 32 op, 624281100.00 ns, 19.5088 ms/op
+WorkloadActual  15: 32 op, 624222700.00 ns, 19.5070 ms/op
+// AfterActualRun
+WorkloadResult   1: 32 op, 623362220.00 ns, 19.4801 ms/op
+WorkloadResult   2: 32 op, 624189520.00 ns, 19.5059 ms/op
+WorkloadResult   3: 32 op, 624198420.00 ns, 19.5062 ms/op
+WorkloadResult   4: 32 op, 624342120.00 ns, 19.5107 ms/op
+WorkloadResult   5: 32 op, 624291820.00 ns, 19.5091 ms/op
+WorkloadResult   6: 32 op, 624307020.00 ns, 19.5096 ms/op
+WorkloadResult   7: 32 op, 624308120.00 ns, 19.5096 ms/op
+WorkloadResult   8: 32 op, 624165720.00 ns, 19.5052 ms/op
+WorkloadResult   9: 32 op, 624348720.00 ns, 19.5109 ms/op
+WorkloadResult  10: 32 op, 624308320.00 ns, 19.5096 ms/op
+WorkloadResult  11: 32 op, 624266520.00 ns, 19.5083 ms/op
+WorkloadResult  12: 32 op, 624321520.00 ns, 19.5100 ms/op
+WorkloadResult  13: 32 op, 624280620.00 ns, 19.5088 ms/op
+WorkloadResult  14: 32 op, 624222220.00 ns, 19.5069 ms/op
+GC:  0 0 0 0 0
+// AfterAll
+
+Mean = 19.5065 ms, StdErr = 0.0021 ms (0.01%); N = 14, StdDev = 0.0078 ms
+Min = 19.4801 ms, Q1 = 19.5062 ms, Median = 19.5089 ms, Q3 = 19.5096 ms, Max = 19.5109 ms
+IQR = 0.0034 ms, LowerFence = 19.5010 ms, UpperFence = 19.5148 ms
+ConfidenceInterval = [19.4977 ms; 19.5153 ms] (CI 99.9%), Margin = 0.0088 ms (0.05% of Mean)
+Skewness = -2.71, Kurtosis = 9.35, MValue = 2
+
+// **************************
+// Benchmark: SnowflakeTest2.CreateID100000: Clr(Runtime=Clr)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\b787c0fc-7ace-4c3e-b003-49ed70ae0f2a\bin\Release\net472\b787c0fc-7ace-4c3e-b003-49ed70ae0f2a.exe -benchmarkId 1
+// BeforeAnythingElse
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0
+// GC=Concurrent Workstation
+// Job: Clr(Runtime=Clr)
+OverheadJitting  1: 1 op, 412400.00 ns, 412.4000 us/op
+WorkloadJitting  1: 1 op, 196140500.00 ns, 196.1405 ms/op
+WorkloadPilot    1: 2 op, 389569400.00 ns, 194.7847 ms/op
+WorkloadPilot    2: 3 op, 585385400.00 ns, 195.1285 ms/op
+WorkloadWarmup   1: 3 op, 584374900.00 ns, 194.7916 ms/op
+WorkloadWarmup   2: 3 op, 584699200.00 ns, 194.8997 ms/op
+WorkloadWarmup   3: 3 op, 585448300.00 ns, 195.1494 ms/op
+WorkloadWarmup   4: 3 op, 585335400.00 ns, 195.1118 ms/op
+WorkloadWarmup   5: 3 op, 585420500.00 ns, 195.1402 ms/op
+WorkloadWarmup   6: 3 op, 585322700.00 ns, 195.1076 ms/op
+// BeforeActualRun
+WorkloadActual   1: 3 op, 584311800.00 ns, 194.7706 ms/op
+WorkloadActual   2: 3 op, 584506200.00 ns, 194.8354 ms/op
+WorkloadActual   3: 3 op, 584158300.00 ns, 194.7194 ms/op
+WorkloadActual   4: 3 op, 584284600.00 ns, 194.7615 ms/op
+WorkloadActual   5: 3 op, 584841500.00 ns, 194.9472 ms/op
+WorkloadActual   6: 3 op, 585285200.00 ns, 195.0951 ms/op
+WorkloadActual   7: 3 op, 585380700.00 ns, 195.1269 ms/op
+WorkloadActual   8: 3 op, 585337200.00 ns, 195.1124 ms/op
+WorkloadActual   9: 3 op, 585429600.00 ns, 195.1432 ms/op
+WorkloadActual  10: 3 op, 585210400.00 ns, 195.0701 ms/op
+WorkloadActual  11: 3 op, 585400500.00 ns, 195.1335 ms/op
+WorkloadActual  12: 3 op, 585363500.00 ns, 195.1212 ms/op
+WorkloadActual  13: 3 op, 585383000.00 ns, 195.1277 ms/op
+WorkloadActual  14: 3 op, 585293800.00 ns, 195.0979 ms/op
+WorkloadActual  15: 3 op, 585291100.00 ns, 195.0970 ms/op
+// AfterActualRun
+WorkloadResult   1: 3 op, 584311800.00 ns, 194.7706 ms/op
+WorkloadResult   2: 3 op, 584506200.00 ns, 194.8354 ms/op
+WorkloadResult   3: 3 op, 584158300.00 ns, 194.7194 ms/op
+WorkloadResult   4: 3 op, 584284600.00 ns, 194.7615 ms/op
+WorkloadResult   5: 3 op, 584841500.00 ns, 194.9472 ms/op
+WorkloadResult   6: 3 op, 585285200.00 ns, 195.0951 ms/op
+WorkloadResult   7: 3 op, 585380700.00 ns, 195.1269 ms/op
+WorkloadResult   8: 3 op, 585337200.00 ns, 195.1124 ms/op
+WorkloadResult   9: 3 op, 585429600.00 ns, 195.1432 ms/op
+WorkloadResult  10: 3 op, 585210400.00 ns, 195.0701 ms/op
+WorkloadResult  11: 3 op, 585400500.00 ns, 195.1335 ms/op
+WorkloadResult  12: 3 op, 585363500.00 ns, 195.1212 ms/op
+WorkloadResult  13: 3 op, 585383000.00 ns, 195.1277 ms/op
+WorkloadResult  14: 3 op, 585293800.00 ns, 195.0979 ms/op
+WorkloadResult  15: 3 op, 585291100.00 ns, 195.0970 ms/op
+GC:  0 0 0 0 0
+// AfterAll
+
+Mean = 195.0106 ms, StdErr = 0.0407 ms (0.02%); N = 15, StdDev = 0.1575 ms
+Min = 194.7194 ms, Q1 = 194.8354 ms, Median = 195.0970 ms, Q3 = 195.1269 ms, Max = 195.1432 ms
+IQR = 0.2915 ms, LowerFence = 194.3982 ms, UpperFence = 195.5642 ms
+ConfidenceInterval = [194.8422 ms; 195.1790 ms] (CI 99.9%), Margin = 0.1684 ms (0.09% of Mean)
+Skewness = -0.81, Kurtosis = 1.8, MValue = 2
+
+// **************************
+// Benchmark: SnowflakeTest2.CreateID1000000: Clr(Runtime=Clr)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.MainTest\bin\Release\netcoreapp2.1\b787c0fc-7ace-4c3e-b003-49ed70ae0f2a\bin\Release\net472\b787c0fc-7ace-4c3e-b003-49ed70ae0f2a.exe -benchmarkId 2
+// BeforeAnythingElse
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0
+// GC=Concurrent Workstation
+// Job: Clr(Runtime=Clr)
+OverheadJitting  1: 1 op, 384700.00 ns, 384.7000 us/op
+WorkloadJitting  1: 1 op, 1953704000.00 ns, 1.9537 s/op
+WorkloadWarmup   1: 1 op, 1952586600.00 ns, 1.9526 s/op
+WorkloadWarmup   2: 1 op, 1952811600.00 ns, 1.9528 s/op
+WorkloadWarmup   3: 1 op, 1952765000.00 ns, 1.9528 s/op
+WorkloadWarmup   4: 1 op, 1952403200.00 ns, 1.9524 s/op
+WorkloadWarmup   5: 1 op, 1952881300.00 ns, 1.9529 s/op
+WorkloadWarmup   6: 1 op, 1952396400.00 ns, 1.9524 s/op
+// BeforeActualRun
+WorkloadActual   1: 1 op, 1952664500.00 ns, 1.9527 s/op
+WorkloadActual   2: 1 op, 1952425200.00 ns, 1.9524 s/op
+WorkloadActual   3: 1 op, 1952635200.00 ns, 1.9526 s/op
+WorkloadActual   4: 1 op, 1952573400.00 ns, 1.9526 s/op
+WorkloadActual   5: 1 op, 1952199100.00 ns, 1.9522 s/op
+WorkloadActual   6: 1 op, 1953374000.00 ns, 1.9534 s/op
+WorkloadActual   7: 1 op, 1952568100.00 ns, 1.9526 s/op
+WorkloadActual   8: 1 op, 1953436800.00 ns, 1.9534 s/op
+WorkloadActual   9: 1 op, 1952782200.00 ns, 1.9528 s/op
+WorkloadActual  10: 1 op, 1952425000.00 ns, 1.9524 s/op
+WorkloadActual  11: 1 op, 1952780000.00 ns, 1.9528 s/op
+WorkloadActual  12: 1 op, 1952410500.00 ns, 1.9524 s/op
+WorkloadActual  13: 1 op, 1952832700.00 ns, 1.9528 s/op
+WorkloadActual  14: 1 op, 1952415700.00 ns, 1.9524 s/op
+WorkloadActual  15: 1 op, 1952827400.00 ns, 1.9528 s/op
+// AfterActualRun
+WorkloadResult   1: 1 op, 1952664500.00 ns, 1.9527 s/op
+WorkloadResult   2: 1 op, 1952425200.00 ns, 1.9524 s/op
+WorkloadResult   3: 1 op, 1952635200.00 ns, 1.9526 s/op
+WorkloadResult   4: 1 op, 1952573400.00 ns, 1.9526 s/op
+WorkloadResult   5: 1 op, 1952199100.00 ns, 1.9522 s/op
+WorkloadResult   6: 1 op, 1953374000.00 ns, 1.9534 s/op
+WorkloadResult   7: 1 op, 1952568100.00 ns, 1.9526 s/op
+WorkloadResult   8: 1 op, 1952782200.00 ns, 1.9528 s/op
+WorkloadResult   9: 1 op, 1952425000.00 ns, 1.9524 s/op
+WorkloadResult  10: 1 op, 1952780000.00 ns, 1.9528 s/op
+WorkloadResult  11: 1 op, 1952410500.00 ns, 1.9524 s/op
+WorkloadResult  12: 1 op, 1952832700.00 ns, 1.9528 s/op
+WorkloadResult  13: 1 op, 1952415700.00 ns, 1.9524 s/op
+WorkloadResult  14: 1 op, 1952827400.00 ns, 1.9528 s/op
+GC:  0 0 0 0 0
+// AfterAll
+
+Mean = 1.9526 s, StdErr = 0.0001 s (0.00%); N = 14, StdDev = 0.0003 s
+Min = 1.9522 s, Q1 = 1.9524 s, Median = 1.9526 s, Q3 = 1.9528 s, Max = 1.9534 s
+IQR = 0.0004 s, LowerFence = 1.9519 s, UpperFence = 1.9533 s
+ConfidenceInterval = [1.9523 s; 1.9530 s] (CI 99.9%), Margin = 0.0003 s (0.02% of Mean)
+Skewness = 0.92, Kurtosis = 3.77, MValue = 2
+
+// **************************
+// Benchmark: SnowflakeTest2.CreateID10000: Core(Runtime=Core)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: Core(Runtime=Core)
+OverheadJitting  1: 1 op, 392400.00 ns, 392.4000 us/op
+WorkloadJitting  1: 1 op, 19686300.00 ns, 19.6863 ms/op
+OverheadJitting  2: 16 op, 675700.00 ns, 42.2313 us/op
+WorkloadJitting  2: 16 op, 312372700.00 ns, 19.5233 ms/op
+WorkloadPilot    1: 16 op, 311761300.00 ns, 19.4851 ms/op
+WorkloadPilot    2: 32 op, 624350200.00 ns, 19.5109 ms/op
+OverheadWarmup   1: 32 op, 2500.00 ns, 78.1250 ns/op
+OverheadWarmup   2: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadWarmup   3: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadWarmup   4: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadWarmup   5: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadWarmup   6: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   1: 32 op, 600.00 ns, 18.7500 ns/op
+OverheadActual   2: 32 op, 700.00 ns, 21.8750 ns/op
+OverheadActual   3: 32 op, 700.00 ns, 21.8750 ns/op
+OverheadActual   4: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual   5: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   6: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   7: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   8: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   9: 32 op, 400.00 ns, 12.5000 ns/op
+OverheadActual  10: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  11: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  12: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  13: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  14: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  15: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  16: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  17: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual  18: 32 op, 600.00 ns, 18.7500 ns/op
+OverheadActual  19: 32 op, 600.00 ns, 18.7500 ns/op
+OverheadActual  20: 32 op, 300.00 ns, 9.3750 ns/op
+WorkloadWarmup   1: 32 op, 623161600.00 ns, 19.4738 ms/op
+WorkloadWarmup   2: 32 op, 624255000.00 ns, 19.5080 ms/op
+WorkloadWarmup   3: 32 op, 624399400.00 ns, 19.5125 ms/op
+WorkloadWarmup   4: 32 op, 624359500.00 ns, 19.5112 ms/op
+WorkloadWarmup   5: 32 op, 624286400.00 ns, 19.5090 ms/op
+WorkloadWarmup   6: 32 op, 624378000.00 ns, 19.5118 ms/op
+WorkloadWarmup   7: 32 op, 624379700.00 ns, 19.5119 ms/op
+WorkloadWarmup   8: 32 op, 624389500.00 ns, 19.5122 ms/op
+WorkloadWarmup   9: 32 op, 624391700.00 ns, 19.5122 ms/op
+WorkloadWarmup  10: 32 op, 624263100.00 ns, 19.5082 ms/op
+// BeforeActualRun
+WorkloadActual   1: 32 op, 623129900.00 ns, 19.4728 ms/op
+WorkloadActual   2: 32 op, 624355600.00 ns, 19.5111 ms/op
+WorkloadActual   3: 32 op, 624414100.00 ns, 19.5129 ms/op
+WorkloadActual   4: 32 op, 624392800.00 ns, 19.5123 ms/op
+WorkloadActual   5: 32 op, 624366400.00 ns, 19.5115 ms/op
+WorkloadActual   6: 32 op, 624364400.00 ns, 19.5114 ms/op
+WorkloadActual   7: 32 op, 624380200.00 ns, 19.5119 ms/op
+WorkloadActual   8: 32 op, 624378100.00 ns, 19.5118 ms/op
+WorkloadActual   9: 32 op, 624384100.00 ns, 19.5120 ms/op
+WorkloadActual  10: 32 op, 624384300.00 ns, 19.5120 ms/op
+WorkloadActual  11: 32 op, 624400800.00 ns, 19.5125 ms/op
+WorkloadActual  12: 32 op, 624385000.00 ns, 19.5120 ms/op
+WorkloadActual  13: 32 op, 624379200.00 ns, 19.5119 ms/op
+WorkloadActual  14: 32 op, 624403100.00 ns, 19.5126 ms/op
+WorkloadActual  15: 32 op, 624374300.00 ns, 19.5117 ms/op
+// AfterActualRun
+WorkloadResult   1: 32 op, 623129365.00 ns, 19.4728 ms/op
+WorkloadResult   2: 32 op, 624355065.00 ns, 19.5111 ms/op
+WorkloadResult   3: 32 op, 624413565.00 ns, 19.5129 ms/op
+WorkloadResult   4: 32 op, 624392265.00 ns, 19.5123 ms/op
+WorkloadResult   5: 32 op, 624365865.00 ns, 19.5114 ms/op
+WorkloadResult   6: 32 op, 624363865.00 ns, 19.5114 ms/op
+WorkloadResult   7: 32 op, 624379665.00 ns, 19.5119 ms/op
+WorkloadResult   8: 32 op, 624377565.00 ns, 19.5118 ms/op
+WorkloadResult   9: 32 op, 624383565.00 ns, 19.5120 ms/op
+WorkloadResult  10: 32 op, 624383765.00 ns, 19.5120 ms/op
+WorkloadResult  11: 32 op, 624400265.00 ns, 19.5125 ms/op
+WorkloadResult  12: 32 op, 624384465.00 ns, 19.5120 ms/op
+WorkloadResult  13: 32 op, 624378665.00 ns, 19.5118 ms/op
+WorkloadResult  14: 32 op, 624402565.00 ns, 19.5126 ms/op
+WorkloadResult  15: 32 op, 624373765.00 ns, 19.5117 ms/op
+GC:  0 0 0 0 0
+// AfterAll
+
+Mean = 19.5093 ms, StdErr = 0.0026 ms (0.01%); N = 15, StdDev = 0.0101 ms
+Min = 19.4728 ms, Q1 = 19.5114 ms, Median = 19.5119 ms, Q3 = 19.5123 ms, Max = 19.5129 ms
+IQR = 0.0008 ms, LowerFence = 19.5102 ms, UpperFence = 19.5135 ms
+ConfidenceInterval = [19.4985 ms; 19.5202 ms] (CI 99.9%), Margin = 0.0108 ms (0.06% of Mean)
+Skewness = -3.12, Kurtosis = 11.34, MValue = 2
+
+// **************************
+// Benchmark: SnowflakeTest2.CreateID100000: Core(Runtime=Core)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: Core(Runtime=Core)
+OverheadJitting  1: 1 op, 410600.00 ns, 410.6000 us/op
+WorkloadJitting  1: 1 op, 195354000.00 ns, 195.3540 ms/op
+WorkloadPilot    1: 2 op, 389983700.00 ns, 194.9919 ms/op
+WorkloadPilot    2: 3 op, 585522900.00 ns, 195.1743 ms/op
+WorkloadWarmup   1: 3 op, 584540400.00 ns, 194.8468 ms/op
+WorkloadWarmup   2: 3 op, 584844500.00 ns, 194.9482 ms/op
+WorkloadWarmup   3: 3 op, 585448900.00 ns, 195.1496 ms/op
+WorkloadWarmup   4: 3 op, 585390600.00 ns, 195.1302 ms/op
+WorkloadWarmup   5: 3 op, 585418700.00 ns, 195.1396 ms/op
+WorkloadWarmup   6: 3 op, 585423600.00 ns, 195.1412 ms/op
+WorkloadWarmup   7: 3 op, 585364700.00 ns, 195.1216 ms/op
+// BeforeActualRun
+WorkloadActual   1: 3 op, 584357200.00 ns, 194.7857 ms/op
+WorkloadActual   2: 3 op, 584469700.00 ns, 194.8232 ms/op
+WorkloadActual   3: 3 op, 585067900.00 ns, 195.0226 ms/op
+WorkloadActual   4: 3 op, 584258900.00 ns, 194.7530 ms/op
+WorkloadActual   5: 3 op, 584856700.00 ns, 194.9522 ms/op
+WorkloadActual   6: 3 op, 585419300.00 ns, 195.1398 ms/op
+WorkloadActual   7: 3 op, 585386400.00 ns, 195.1288 ms/op
+WorkloadActual   8: 3 op, 585450100.00 ns, 195.1500 ms/op
+WorkloadActual   9: 3 op, 585314700.00 ns, 195.1049 ms/op
+WorkloadActual  10: 3 op, 585363600.00 ns, 195.1212 ms/op
+WorkloadActual  11: 3 op, 585386200.00 ns, 195.1287 ms/op
+WorkloadActual  12: 3 op, 585484200.00 ns, 195.1614 ms/op
+WorkloadActual  13: 3 op, 585260900.00 ns, 195.0870 ms/op
+WorkloadActual  14: 3 op, 585455900.00 ns, 195.1520 ms/op
+WorkloadActual  15: 3 op, 585399800.00 ns, 195.1333 ms/op
+// AfterActualRun
+WorkloadResult   1: 3 op, 584357200.00 ns, 194.7857 ms/op
+WorkloadResult   2: 3 op, 584469700.00 ns, 194.8232 ms/op
+WorkloadResult   3: 3 op, 585067900.00 ns, 195.0226 ms/op
+WorkloadResult   4: 3 op, 584258900.00 ns, 194.7530 ms/op
+WorkloadResult   5: 3 op, 584856700.00 ns, 194.9522 ms/op
+WorkloadResult   6: 3 op, 585419300.00 ns, 195.1398 ms/op
+WorkloadResult   7: 3 op, 585386400.00 ns, 195.1288 ms/op
+WorkloadResult   8: 3 op, 585450100.00 ns, 195.1500 ms/op
+WorkloadResult   9: 3 op, 585314700.00 ns, 195.1049 ms/op
+WorkloadResult  10: 3 op, 585363600.00 ns, 195.1212 ms/op
+WorkloadResult  11: 3 op, 585386200.00 ns, 195.1287 ms/op
+WorkloadResult  12: 3 op, 585484200.00 ns, 195.1614 ms/op
+WorkloadResult  13: 3 op, 585260900.00 ns, 195.0870 ms/op
+WorkloadResult  14: 3 op, 585455900.00 ns, 195.1520 ms/op
+WorkloadResult  15: 3 op, 585399800.00 ns, 195.1333 ms/op
+GC:  0 0 0 0 0
+// AfterAll
+
+Mean = 195.0429 ms, StdErr = 0.0371 ms (0.02%); N = 15, StdDev = 0.1436 ms
+Min = 194.7530 ms, Q1 = 194.9522 ms, Median = 195.1212 ms, Q3 = 195.1398 ms, Max = 195.1614 ms
+IQR = 0.1875 ms, LowerFence = 194.6709 ms, UpperFence = 195.4211 ms
+ConfidenceInterval = [194.8894 ms; 195.1964 ms] (CI 99.9%), Margin = 0.1535 ms (0.08% of Mean)
+Skewness = -1.01, Kurtosis = 2.29, MValue = 2
+
+// **************************
+// Benchmark: SnowflakeTest2.CreateID1000000: Core(Runtime=Core)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: Core(Runtime=Core)
+OverheadJitting  1: 1 op, 402700.00 ns, 402.7000 us/op
+WorkloadJitting  1: 1 op, 1953720700.00 ns, 1.9537 s/op
+WorkloadWarmup   1: 1 op, 1952093200.00 ns, 1.9521 s/op
+WorkloadWarmup   2: 1 op, 1952958200.00 ns, 1.9530 s/op
+WorkloadWarmup   3: 1 op, 1952880900.00 ns, 1.9529 s/op
+WorkloadWarmup   4: 1 op, 1953430100.00 ns, 1.9534 s/op
+WorkloadWarmup   5: 1 op, 1952890900.00 ns, 1.9529 s/op
+WorkloadWarmup   6: 1 op, 1953346300.00 ns, 1.9533 s/op
+// BeforeActualRun
+WorkloadActual   1: 1 op, 1952560800.00 ns, 1.9526 s/op
+WorkloadActual   2: 1 op, 1952520000.00 ns, 1.9525 s/op
+WorkloadActual   3: 1 op, 1952712100.00 ns, 1.9527 s/op
+WorkloadActual   4: 1 op, 1953137600.00 ns, 1.9531 s/op
+WorkloadActual   5: 1 op, 1952428400.00 ns, 1.9524 s/op
+WorkloadActual   6: 1 op, 1952436500.00 ns, 1.9524 s/op
+WorkloadActual   7: 1 op, 1952895200.00 ns, 1.9529 s/op
+WorkloadActual   8: 1 op, 1953360700.00 ns, 1.9534 s/op
+WorkloadActual   9: 1 op, 1952804000.00 ns, 1.9528 s/op
+WorkloadActual  10: 1 op, 1952403700.00 ns, 1.9524 s/op
+WorkloadActual  11: 1 op, 1952916000.00 ns, 1.9529 s/op
+WorkloadActual  12: 1 op, 1952476600.00 ns, 1.9525 s/op
+WorkloadActual  13: 1 op, 1952906800.00 ns, 1.9529 s/op
+WorkloadActual  14: 1 op, 1952455000.00 ns, 1.9525 s/op
+WorkloadActual  15: 1 op, 1952850200.00 ns, 1.9529 s/op
+// AfterActualRun
+WorkloadResult   1: 1 op, 1952560800.00 ns, 1.9526 s/op
+WorkloadResult   2: 1 op, 1952520000.00 ns, 1.9525 s/op
+WorkloadResult   3: 1 op, 1952712100.00 ns, 1.9527 s/op
+WorkloadResult   4: 1 op, 1953137600.00 ns, 1.9531 s/op
+WorkloadResult   5: 1 op, 1952428400.00 ns, 1.9524 s/op
+WorkloadResult   6: 1 op, 1952436500.00 ns, 1.9524 s/op
+WorkloadResult   7: 1 op, 1952895200.00 ns, 1.9529 s/op
+WorkloadResult   8: 1 op, 1953360700.00 ns, 1.9534 s/op
+WorkloadResult   9: 1 op, 1952804000.00 ns, 1.9528 s/op
+WorkloadResult  10: 1 op, 1952403700.00 ns, 1.9524 s/op
+WorkloadResult  11: 1 op, 1952916000.00 ns, 1.9529 s/op
+WorkloadResult  12: 1 op, 1952476600.00 ns, 1.9525 s/op
+WorkloadResult  13: 1 op, 1952906800.00 ns, 1.9529 s/op
+WorkloadResult  14: 1 op, 1952455000.00 ns, 1.9525 s/op
+WorkloadResult  15: 1 op, 1952850200.00 ns, 1.9529 s/op
+GC:  0 0 0 0 0
+// AfterAll
+
+Mean = 1.9527 s, StdErr = 0.0001 s (0.00%); N = 15, StdDev = 0.0003 s
+Min = 1.9524 s, Q1 = 1.9525 s, Median = 1.9527 s, Q3 = 1.9529 s, Max = 1.9534 s
+IQR = 0.0005 s, LowerFence = 1.9518 s, UpperFence = 1.9536 s
+ConfidenceInterval = [1.9524 s; 1.9530 s] (CI 99.9%), Margin = 0.0003 s (0.02% of Mean)
+Skewness = 0.6, Kurtosis = 2.22, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\UnionIDGenerator.Test.SnowflakeTest2-report.csv
+  BenchmarkDotNet.Artifacts\results\UnionIDGenerator.Test.SnowflakeTest2-report-github.md
+  BenchmarkDotNet.Artifacts\results\UnionIDGenerator.Test.SnowflakeTest2-report.html
+
+// * Detailed results *
+SnowflakeTest2.CreateID10000: Clr(Runtime=Clr)
+Runtime = .NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0; GC = Concurrent Workstation
+Mean = 19.5065 ms, StdErr = 0.0021 ms (0.01%); N = 14, StdDev = 0.0078 ms
+Min = 19.4801 ms, Q1 = 19.5062 ms, Median = 19.5089 ms, Q3 = 19.5096 ms, Max = 19.5109 ms
+IQR = 0.0034 ms, LowerFence = 19.5010 ms, UpperFence = 19.5148 ms
+ConfidenceInterval = [19.4977 ms; 19.5153 ms] (CI 99.9%), Margin = 0.0088 ms (0.05% of Mean)
+Skewness = -2.71, Kurtosis = 9.35, MValue = 2
+-------------------- Histogram --------------------
+[19.477 ms ; 19.514 ms) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+SnowflakeTest2.CreateID100000: Clr(Runtime=Clr)
+Runtime = .NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0; GC = Concurrent Workstation
+Mean = 195.0106 ms, StdErr = 0.0407 ms (0.02%); N = 15, StdDev = 0.1575 ms
+Min = 194.7194 ms, Q1 = 194.8354 ms, Median = 195.0970 ms, Q3 = 195.1269 ms, Max = 195.1432 ms
+IQR = 0.2915 ms, LowerFence = 194.3982 ms, UpperFence = 195.5642 ms
+ConfidenceInterval = [194.8422 ms; 195.1790 ms] (CI 99.9%), Margin = 0.1684 ms (0.09% of Mean)
+Skewness = -0.81, Kurtosis = 1.8, MValue = 2
+-------------------- Histogram --------------------
+[194.664 ms ; 195.199 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+SnowflakeTest2.CreateID1000000: Clr(Runtime=Clr)
+Runtime = .NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0; GC = Concurrent Workstation
+Mean = 1.9526 s, StdErr = 0.0001 s (0.00%); N = 14, StdDev = 0.0003 s
+Min = 1.9522 s, Q1 = 1.9524 s, Median = 1.9526 s, Q3 = 1.9528 s, Max = 1.9534 s
+IQR = 0.0004 s, LowerFence = 1.9519 s, UpperFence = 1.9533 s
+ConfidenceInterval = [1.9523 s; 1.9530 s] (CI 99.9%), Margin = 0.0003 s (0.02% of Mean)
+Skewness = 0.92, Kurtosis = 3.77, MValue = 2
+-------------------- Histogram --------------------
+[1.952 s ; 1.953 s) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+SnowflakeTest2.CreateID10000: Core(Runtime=Core)
+Runtime = .NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 19.5093 ms, StdErr = 0.0026 ms (0.01%); N = 15, StdDev = 0.0101 ms
+Min = 19.4728 ms, Q1 = 19.5114 ms, Median = 19.5119 ms, Q3 = 19.5123 ms, Max = 19.5129 ms
+IQR = 0.0008 ms, LowerFence = 19.5102 ms, UpperFence = 19.5135 ms
+ConfidenceInterval = [19.4985 ms; 19.5202 ms] (CI 99.9%), Margin = 0.0108 ms (0.06% of Mean)
+Skewness = -3.12, Kurtosis = 11.34, MValue = 2
+-------------------- Histogram --------------------
+[19.469 ms ; 19.517 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+SnowflakeTest2.CreateID100000: Core(Runtime=Core)
+Runtime = .NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 195.0429 ms, StdErr = 0.0371 ms (0.02%); N = 15, StdDev = 0.1436 ms
+Min = 194.7530 ms, Q1 = 194.9522 ms, Median = 195.1212 ms, Q3 = 195.1398 ms, Max = 195.1614 ms
+IQR = 0.1875 ms, LowerFence = 194.6709 ms, UpperFence = 195.4211 ms
+ConfidenceInterval = [194.8894 ms; 195.1964 ms] (CI 99.9%), Margin = 0.1535 ms (0.08% of Mean)
+Skewness = -1.01, Kurtosis = 2.29, MValue = 2
+-------------------- Histogram --------------------
+[194.702 ms ; 195.212 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+SnowflakeTest2.CreateID1000000: Core(Runtime=Core)
+Runtime = .NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 1.9527 s, StdErr = 0.0001 s (0.00%); N = 15, StdDev = 0.0003 s
+Min = 1.9524 s, Q1 = 1.9525 s, Median = 1.9527 s, Q3 = 1.9529 s, Max = 1.9534 s
+IQR = 0.0005 s, LowerFence = 1.9518 s, UpperFence = 1.9536 s
+ConfidenceInterval = [1.9524 s; 1.9530 s] (CI 99.9%), Margin = 0.0003 s (0.02% of Mean)
+Skewness = 0.6, Kurtosis = 2.22, MValue = 2
+-------------------- Histogram --------------------
+[1.952 s ; 1.953 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.11.1, OS=Windows 10.0.17134.345 (1803/April2018Update/Redstone4)
+Intel Core i5-8400 CPU 2.80GHz (Max: 2.81GHz) (Coffee Lake), 1 CPU, 6 logical and 6 physical cores
+.NET Core SDK=2.1.400
+  [Host] : .NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT
+  Clr    : .NET Framework 4.7.2 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3190.0
+  Core   : .NET Core 2.1.2 (CoreCLR 4.6.26628.05, CoreFX 4.6.26629.01), 64bit RyuJIT
+
+
+          Method |  Job | Runtime |        Mean |     Error |    StdDev |
+---------------- |----- |-------- |------------:|----------:|----------:|
+   CreateID10000 |  Clr |     Clr |    19.51 ms | 0.0088 ms | 0.0078 ms |
+  CreateID100000 |  Clr |     Clr |   195.01 ms | 0.1684 ms | 0.1575 ms |
+ CreateID1000000 |  Clr |     Clr | 1,952.64 ms | 0.3207 ms | 0.2843 ms |
+   CreateID10000 | Core |    Core |    19.51 ms | 0.0108 ms | 0.0101 ms |
+  CreateID100000 | Core |    Core |   195.04 ms | 0.1535 ms | 0.1436 ms |
+ CreateID1000000 | Core |    Core | 1,952.72 ms | 0.3094 ms | 0.2895 ms |
+
+// * Hints *
+Outliers
+  SnowflakeTest2.CreateID10000: Clr   -> 1 outlier  was  removed, 2 outliers were detected
+  SnowflakeTest2.CreateID1000000: Clr -> 1 outlier  was  removed
+  SnowflakeTest2.CreateID10000: Core  -> 1 outlier  was  detected
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ms   : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:02:28 (148.67 sec), executed benchmarks: 6
+
+// * Artifacts cleanup *

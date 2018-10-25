@@ -1,0 +1,12 @@
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\bin\Release\netstandard2.0\UnionIDGenerator.Test.deps.json
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\bin\Release\netstandard2.0\UnionIDGenerator.Test.dll
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\bin\Release\netstandard2.0\UnionIDGenerator.Test.pdb
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\bin\Release\netstandard2.0\UnionIDGenerator.Snowflake.dll
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\bin\Release\netstandard2.0\UnionIDGenerator.Snowflake.pdb
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\obj\Release\netstandard2.0\UnionIDGenerator.Test.csprojAssemblyReference.cache
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\obj\Release\netstandard2.0\UnionIDGenerator.Test.csproj.CoreCompileInputs.cache
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\obj\Release\netstandard2.0\UnionIDGenerator.Test.AssemblyInfoInputs.cache
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\obj\Release\netstandard2.0\UnionIDGenerator.Test.AssemblyInfo.cs
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\obj\Release\netstandard2.0\UnionIDGenerator.Test.csproj.CopyComplete
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\obj\Release\netstandard2.0\UnionIDGenerator.Test.dll
+F:\mywork\HonaSoft.UnionIDGenerator.NETCore\UnionIDGenerator.Test\obj\Release\netstandard2.0\UnionIDGenerator.Test.pdb
